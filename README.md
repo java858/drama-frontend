@@ -8,6 +8,10 @@ The customer-facing web application for the Drama Platform. It lets viewers disc
 | --- | --- |
 | ![Drama home page](./screenshots/drama-frontend_home.png) | ![Favorites page](./screenshots/drama-frontend_favorites.png) |
 
+| Drama details | Episode player |
+| --- | --- |
+| ![Drama detail page](./screenshots/drama-frontend_drama_detail.png) | ![Episode player page](./screenshots/drama-frontend_play.png) |
+
 | Watch history | Login | Profile |
 | --- | --- | --- |
 | ![Watch history page](./screenshots/drama-frontend_history.png) | ![Login page](./screenshots/drama-frontend_login.png) | ![Profile page](./screenshots/drama-frontend_profile.png) |
