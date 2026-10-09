@@ -1,0 +1,46 @@
+.mobileHeader {
+    display: none;
+    /* 桌面端隐藏 */
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    background: #1a1a2e;
+    border-bottom: 1px solid #2a2a4e;
+}
+
+.searchBox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #0d0d1a;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.searchBox:hover {
+    border-color: #e94560;
+}
+
+.searchIcon {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.searchText {
+    color: #666;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 移动端显示 */
+@media (max-width: 768px) {
+    .mobileHeader {
+        display: flex;
+    }
+}

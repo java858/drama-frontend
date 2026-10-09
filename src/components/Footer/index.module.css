@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
+
+.footer {
+    background: #1a1a2e;
+    padding: 1.5rem 0;
+    border-top: 1px solid #2a2a4e;
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.text {
+    color: #666;
+    font-size: 0.85rem;
+    margin: 0;
+}

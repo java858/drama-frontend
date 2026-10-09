@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+}
+
+.trigger {
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+    color: #eee;
+}
+
+.trigger:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    background: #1a1a2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 120px;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.item {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1.2rem;
+    background: transparent;
+    border: none;
+    color: #ccc;
+    text-align: left;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+    white-space: nowrap;
+}
+
+.item:hover {
+    background: rgba(233, 69, 96, 0.15);
+    color: white;
+}
+
+.active {
+    color: #e94560;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.backToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #e94560;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s;
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backToTop:hover {
+    background: #c73652;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .backToTop {
+        bottom: 80px;
+        /* 避开 BottomNav (60px) + 留白 */
+        right: 1rem;
+    }
+}

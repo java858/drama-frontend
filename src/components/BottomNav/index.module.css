@@ -1,0 +1,47 @@
+.bottomNav {
+    display: none;
+    /* 桌面端隐藏 */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: #1a1a2e;
+    border-top: 1px solid #2a2a4e;
+    z-index: 400;
+}
+
+.navItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.label {
+    font-size: 0.7rem;
+}
+
+.active {
+    color: #e94560;
+}
+
+.active .icon {
+    transform: scale(1.1);
+}
+
+/* 移动端显示 */
+@media (max-width: 768px) {
+    .bottomNav {
+        display: flex;
+    }
+}

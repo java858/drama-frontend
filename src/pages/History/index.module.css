@@ -1,0 +1,135 @@
+.historyPage {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 20px;
+}
+
+.title {
+    margin: 0 0 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e94560;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    background: #16213e;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.item::before {
+    content: "▶";
+    flex-shrink: 0;
+    color: #e94560;
+    font-size: 0.85rem;
+}
+
+.item:hover {
+    transform: translateY(-2px);
+    border-color: rgba(233, 69, 96, 0.55);
+    background: #1a294b;
+}
+
+.item:focus-visible {
+    outline: 2px solid #e94560;
+    outline-offset: 2px;
+}
+
+.itemInfo {
+    flex: 1;
+    min-width: 0;
+}
+
+.dramaTitle {
+    margin: 0 0 0.35rem;
+    overflow: hidden;
+    color: white;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.episodeTitle {
+    margin: 0;
+    overflow: hidden;
+    color: #aaa;
+    font-size: 0.9rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.time {
+    flex-shrink: 0;
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 240px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    background: #12182b;
+    color: #888;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #333;
+    border-top-color: #e94560;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .historyPage {
+        padding: 1rem 12px;
+    }
+
+    .title {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .item {
+        gap: 0.75rem;
+        padding: 0.9rem;
+    }
+
+    .time {
+        font-size: 0.75rem;
+    }
+}

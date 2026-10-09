@@ -1,0 +1,266 @@
+.profilePage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 16px;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #333;
+    border-top-color: #e94560;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    color: #e94560;
+    font-size: 1.2rem;
+}
+
+.card {
+    background: #16213e;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0 0 2rem 0;
+    border-bottom: 2px solid #e94560;
+    padding-bottom: 1rem;
+}
+
+.infoGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background: #1a1a2e;
+    border-radius: 8px;
+    gap: 1rem;
+    min-width: 0;
+}
+
+.label {
+    color: #888;
+    font-size: 0.9rem;
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.value {
+    color: white;
+    font-size: 1rem;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.goldValue {
+    color: #fbbf24;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.emailDisplay {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.emailDisplay .value {
+    flex: 1;
+}
+
+.editBtn {
+    background: transparent;
+    border: 1px solid #555;
+    color: #aaa;
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+}
+
+.editBtn:hover {
+    border-color: #e94560;
+    color: white;
+}
+
+.editForm {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.editInput {
+    flex: 1;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #0d0d1a;
+    color: white;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.editInput:focus {
+    border-color: #e94560;
+}
+
+.saveBtn {
+    padding: 0.3rem 1rem;
+    background: #e94560;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
+
+.saveBtn:hover {
+    background: #c73652;
+}
+
+.saveBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.cancelBtn {
+    padding: 0.3rem 1rem;
+    background: transparent;
+    color: #888;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+}
+
+.cancelBtn:hover {
+    border-color: #888;
+    color: white;
+}
+
+.logoutSection {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logoutBtn {
+    padding: 0.7rem 2rem;
+    background: transparent;
+    color: #e94560;
+    border: 1px solid #e94560;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.logoutBtn:hover {
+    background: #e94560;
+    color: white;
+}
+
+.errorMsg {
+    margin-bottom: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+    background: rgba(233, 69, 96, 0.2);
+    color: #ff8a9d;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    .profilePage {
+        padding: 0.75rem 10px;
+    }
+
+    .card {
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .infoGrid {
+        gap: 0.65rem;
+    }
+
+    .infoItem {
+        align-items: stretch;
+        gap: 0.35rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    .label {
+        min-width: 64px;
+    }
+
+    .emailDisplay {
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .emailDisplay .value {
+        overflow-wrap: anywhere;
+    }
+
+    .editForm {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto auto;
+        width: 100%;
+    }
+
+    .editInput {
+        grid-column: 1 / -1;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .saveBtn,
+    .cancelBtn {
+        padding: 0.4rem 0.75rem;
+    }
+
+    .logoutSection {
+        margin-top: 0.75rem;
+    }
+}

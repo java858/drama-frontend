@@ -1,0 +1,112 @@
+{
+    "nav": {
+        "home": "ໜ້າຫຼັກ",
+        "search": "ຄົ້ນຫາ",
+        "login": "ເຂົ້າສູ່ລະບົບ",
+        "profile": "ຂໍ້ມູນສ່ວນຕົວ",
+        "favorites": "ລາຍການທີ່ຊອບ",
+        "history": "ປະຫວັດການຊົມ",
+        "logout": "ອອກຈາກລະບົບ"
+    },
+    "home": {
+        "latest": "ລາຍການໃໝ່ລ່າສຸດ",
+        "hot": "ລາຍການຍອດນິຍົມ",
+        "viewAll": "ເບິ່ງທັງໝົດ",
+        "noMore": "ບໍ່ມີເພີ່ມເຕີມ"
+    },
+    "search": {
+        "placeholder": "ຄົ້ນຫາລາຍການ...",
+        "button": "ຄົ້ນຫາ",
+        "loading": "ກຳລັງຄົ້ນຫາ...",
+        "count": "ພົບ {{count}} ລາຍການ",
+        "empty": "ບໍ່ພົບລາຍການ",
+        "hint": "ພິມຄຳສຳຄັນເພື່ອຄົ້ນຫາ"
+    },
+    "drama": {
+        "price": "{{price}} ເງິນ",
+        "free": "{{count}} ຕອນທຳອິດຊົມຟຣີ",
+        "purchase": "ຊື້ທັງເລື່ອງ",
+        "purchased": "ຊື້ແລ້ວ",
+        "purchasing": "ກຳລັງຊື້...",
+        "purchaseSuccess": "ຊື້ສຳເລັດ",
+        "purchaseFailed": "ຊື້ບໍ່ສຳເລັດ",
+        "notFound": "ບໍ່ພົບລາຍການ",
+        "director": "ຜູ້ກຳກັບ",
+        "cast": "ນັກສະແດງ",
+        "episodes": "ລາຍຊື່ຕອນ",
+        "episode": "ຕອນທີ ",
+        "episodeUnit": "",
+        "gold": "ເງິນ",
+        "freeTag": "ຟຣີ",
+        "favorite": "ມັກ",
+        "favorited": "ມັກແລ້ວ",
+        "confirmPurchase": "ຢືນຢັນຊື້ທັງເລື່ອງບໍ?",
+        "confirmPurchaseFromEpisode": "ຕອນນີ້ເປັນເນື້ອຫາແບບເສຍເງິນ. ຊື້ທັງເລື່ອງບໍ?"
+    },
+    "player": {
+        "title": "ກຳລັງຫຼິ້ນ",
+        "speed": "ຄວາມໄວ",
+        "fullscreen": "ເຕັມຈໍ",
+        "noPermission": "ທ່ານບໍ່ມີສິດຊົມຕອນນີ້",
+        "notFound": "ບໍ່ພົບຕອນ",
+        "back": "ກັບຄືນ",
+        "loading": "ກຳລັງໂຫຼດ..."
+    },
+    "login": {
+        "title": "ເຂົ້າສູ່ລະບົບ",
+        "username": "ຊື່ຜູ້ໃຊ້",
+        "password": "ລະຫັດຜ່ານ",
+        "submit": "ເຂົ້າສູ່ລະບົບ",
+        "registerTitle": "ສະໝັກສະມາຊິກ",
+        "email": "ອີເມວ",
+        "registerSubmit": "ສະໝັກ",
+        "usernamePlaceholder": "ປ້ອນຊື່ຜູ້ໃຊ້",
+        "passwordPlaceholder": "ປ້ອນລະຫັດຜ່ານ",
+        "emailPlaceholder": "ປ້ອນອີເມວ",
+        "loading": "ກຳລັງດຳເນີນການ...",
+        "noAccount": "ຍັງບໍ່ມີບັນຊີ?",
+        "signUp": "ສະໝັກ",
+        "hasAccount": "ມີບັນຊີແລ້ວ?",
+        "goLogin": "ເຂົ້າສູ່ລະບົບ",
+        "registerSuccess": "ສະໝັກສຳເລັດ, ກະລຸນາເຂົ້າສູ່ລະບົບ",
+        "loginFailed": "ເຂົ້າສູ່ລະບົບບໍ່ສຳເລັດ",
+        "registerFailed": "ສະໝັກບໍ່ສຳເລັດ"
+    },
+    "profile": {
+        "title": "ຂໍ້ມູນສ່ວນຕົວ",
+        "gold": "ເງິນຄົງເຫຼືອ",
+        "username": "ຊື່ຜູ້ໃຊ້",
+        "email": "ອີເມວ",
+        "role": "ສິດ",
+        "joined": "ວັນທີສະໝັກ",
+        "edit": "ແກ້ໄຂ",
+        "save": "ບັນທຶກ",
+        "cancel": "ຍົກເລີກ",
+        "confirmSaveEmail": "ທ່ານແນ່ໃຈບໍວ່າຈະບັນທຶກອີເມວນີ້?",
+        "updateFailed": "ອັບເດດຂໍ້ມູນບໍ່ສຳເລັດ ກະລຸນາລອງໃໝ່.",
+        "notFound": "ບໍ່ພົບຜູ້ໃຊ້"
+    },
+    "favorites": {
+        "title": "ລາຍການຂອງຂ້ອຍ",
+        "selectType": "ປະເພດລາຍການ",
+        "favoritesOption": "ລາຍການທີ່ຊອບ",
+        "purchasedOption": "ຊື້ແລ້ວ",
+        "empty": "ຍັງບໍ່ມີລາຍການທີ່ຊອບ",
+        "emptyPurchased": "ຍັງບໍ່ມີລາຍການທີ່ຊື້",
+        "loadFailed": "ໂຫຼດລາຍການບໍ່ສຳເລັດ ກະລຸນາລອງໃໝ່ພາຍຫຼັງ"
+    },
+    "history": {
+        "title": "ປະຫວັດການຊົມ",
+        "empty": "ຍັງບໍ່ມີປະຫວັດການຊົມ",
+        "loadFailed": "ໂຫຼດປະຫວັດການຊົມບໍ່ສຳເລັດ ກະລຸນາລອງໃໝ່ພາຍຫຼັງ"
+    },
+    "common": {
+        "loading": "ກຳລັງໂຫຼດ...",
+        "notFound": "ບໍ່ພົບໜ້າ",
+        "confirm": "ຢືນຢັນ",
+        "cancel": "ຍົກເລີກ"
+    },
+    "footer": {
+        "rights": "ສະຫງວນລິຂະສິດ"
+    }
+}

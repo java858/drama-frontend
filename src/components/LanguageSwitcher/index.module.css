@@ -1,0 +1,26 @@
+.switcher {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.langBtn {
+    background: transparent;
+    border: 1px solid #555;
+    color: #aaa;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+}
+
+.langBtn:hover {
+    border-color: #e94560;
+    color: white;
+}
+
+.active {
+    background: #e94560;
+    border-color: #e94560;
+    color: white;
+}

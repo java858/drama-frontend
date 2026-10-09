@@ -1,0 +1,27 @@
+.scrollContainer {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: #e94560 #1a1a2e;
+}
+
+.scrollContainer::-webkit-scrollbar {
+    height: 6px;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+    background: #1a1a2e;
+    border-radius: 3px;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+    background: #e94560;
+    border-radius: 3px;
+}
+
+.scrollInner {
+    display: flex;
+    gap: 1rem;
+    padding: 0.2rem;
+}

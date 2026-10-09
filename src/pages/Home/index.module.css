@@ -1,0 +1,81 @@
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 20px;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.sectionTitle {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #e94560;
+    padding-left: 1rem;
+}
+
+.hotCardWrapper {
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.loadingRow {
+    color: #888;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.sentinel {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingMore {
+    color: #888;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.noMore {
+    color: #555;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding: 1rem 12px;
+    }
+
+    .section {
+        margin-bottom: 2rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        padding-left: 0.8rem;
+        border-left-width: 3px;
+    }
+
+    .hotCardWrapper {
+        width: 140px;
+        /* 移动端卡片更窄 */
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+    }
+}

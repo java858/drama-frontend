@@ -1,0 +1,112 @@
+{
+    "nav": {
+        "home": "Home",
+        "search": "Search",
+        "login": "Login",
+        "profile": "Profile",
+        "favorites": "Favorites",
+        "history": "History",
+        "logout": "Logout"
+    },
+    "home": {
+        "latest": "Latest Dramas",
+        "hot": "Hot Dramas",
+        "viewAll": "View All",
+        "noMore": "No more"
+    },
+    "search": {
+        "placeholder": "Search dramas...",
+        "button": "Search",
+        "loading": "Searching...",
+        "count": "Found {{count}} dramas",
+        "empty": "No dramas found",
+        "hint": "Enter keywords to search dramas"
+    },
+    "drama": {
+        "price": "{{price}} Gold",
+        "free": "First {{count}} episodes free",
+        "purchase": "Purchase Drama",
+        "purchased": "Purchased",
+        "purchasing": "Purchasing...",
+        "purchaseSuccess": "Purchase successful",
+        "purchaseFailed": "Purchase failed",
+        "notFound": "Drama not found",
+        "director": "Director",
+        "cast": "Cast",
+        "episodes": "Episodes",
+        "episode": "Episode ",
+        "episodeUnit": "",
+        "gold": "Gold",
+        "freeTag": "Free",
+        "favorite": "Favorite",
+        "favorited": "Favorited",
+        "confirmPurchase": "Confirm to purchase the full drama?",
+        "confirmPurchaseFromEpisode": "This episode is paid. Purchase the full drama?"
+    },
+    "player": {
+        "title": "Now Playing",
+        "speed": "Speed",
+        "fullscreen": "Fullscreen",
+        "noPermission": "You don't have permission to watch this episode",
+        "notFound": "Episode not found",
+        "back": "Back",
+        "loading": "Loading..."
+    },
+    "login": {
+        "title": "Login",
+        "username": "Username",
+        "password": "Password",
+        "submit": "Login",
+        "registerTitle": "Sign Up",
+        "email": "Email",
+        "registerSubmit": "Sign Up",
+        "usernamePlaceholder": "Enter username",
+        "passwordPlaceholder": "Enter password",
+        "emailPlaceholder": "Enter email",
+        "loading": "Processing...",
+        "noAccount": "No account?",
+        "signUp": "Sign Up",
+        "hasAccount": "Already have an account?",
+        "goLogin": "Login",
+        "registerSuccess": "Registration successful, please login",
+        "loginFailed": "Login failed",
+        "registerFailed": "Registration failed"
+    },
+    "profile": {
+        "title": "Profile",
+        "gold": "Gold Balance",
+        "username": "Username",
+        "email": "Email",
+        "role": "Role",
+        "joined": "Joined",
+        "edit": "Edit",
+        "save": "Save",
+        "cancel": "Cancel",
+        "confirmSaveEmail": "Are you sure you want to save this email address?",
+        "updateFailed": "Could not update your profile. Please try again.",
+        "notFound": "User not found"
+    },
+    "favorites": {
+        "title": "My Dramas",
+        "selectType": "List type",
+        "favoritesOption": "Favorites",
+        "purchasedOption": "Purchased",
+        "empty": "No favorites yet",
+        "emptyPurchased": "No purchased dramas yet",
+        "loadFailed": "Could not load this list. Please try again later."
+    },
+    "history": {
+        "title": "Watch History",
+        "empty": "No watch history",
+        "loadFailed": "Could not load watch history. Please try again later."
+    },
+    "common": {
+        "loading": "Loading...",
+        "notFound": "Page not found",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    },
+    "footer": {
+        "rights": "All rights reserved"
+    }
+}

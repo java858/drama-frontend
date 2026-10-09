@@ -1,0 +1,8 @@
+.balance {
+    color: #fbbf24;
+    font-weight: bold;
+    padding: 0.3rem 0.8rem;
+    background: rgba(251, 191, 36, 0.1);
+    border-radius: 5px;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+}

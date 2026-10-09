@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0d0d1a;
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+/* 404 页面 */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  color: #e94560;
+  margin: 0;
+}
+
+.not-found p {
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-bottom: 70px;
+    /* 避开 BottomNav */
+  }
+}

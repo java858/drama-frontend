@@ -1,0 +1,112 @@
+{
+    "nav": {
+        "home": "首页",
+        "search": "搜索",
+        "login": "登录",
+        "profile": "个人中心",
+        "favorites": "我的收藏",
+        "history": "观看历史",
+        "logout": "退出登录"
+    },
+    "home": {
+        "latest": "最新电视剧",
+        "hot": "热门电视剧",
+        "viewAll": "查看全部",
+        "noMore": "没有更多了"
+    },
+    "search": {
+        "placeholder": "搜索电视剧...",
+        "button": "搜索",
+        "loading": "搜索中...",
+        "count": "找到 {{count}} 部电视剧",
+        "empty": "未找到相关电视剧",
+        "hint": "输入关键词搜索电视剧"
+    },
+    "drama": {
+        "price": "{{price}} 金币",
+        "free": "前{{count}}集免费",
+        "purchase": "购买整部剧",
+        "purchased": "已购买",
+        "purchasing": "购买中...",
+        "purchaseSuccess": "购买成功",
+        "purchaseFailed": "购买失败",
+        "notFound": "电视剧不存在",
+        "director": "导演",
+        "cast": "主演",
+        "episodes": "剧集列表",
+        "episode": "第",
+        "episodeUnit": "集",
+        "gold": "金币",
+        "freeTag": "免费",
+        "favorite": "收藏",
+        "favorited": "已收藏",
+        "confirmPurchase": "确定购买整部剧吗？",
+        "confirmPurchaseFromEpisode": "该集为付费内容，是否购买整部剧？"
+    },
+    "player": {
+        "title": "正在播放",
+        "speed": "倍速",
+        "fullscreen": "全屏",
+        "noPermission": "您没有权限观看此剧集",
+        "notFound": "剧集不存在",
+        "back": "返回",
+        "loading": "加载中..."
+    },
+    "login": {
+        "title": "登录",
+        "username": "用户名",
+        "password": "密码",
+        "submit": "登录",
+        "registerTitle": "注册",
+        "email": "邮箱",
+        "registerSubmit": "注册",
+        "usernamePlaceholder": "请输入用户名",
+        "passwordPlaceholder": "请输入密码",
+        "emailPlaceholder": "请输入邮箱",
+        "loading": "处理中...",
+        "noAccount": "还没有账号？",
+        "signUp": "立即注册",
+        "hasAccount": "已有账号？",
+        "goLogin": "去登录",
+        "registerSuccess": "注册成功，请登录",
+        "loginFailed": "登录失败",
+        "registerFailed": "注册失败"
+    },
+    "profile": {
+        "title": "个人中心",
+        "gold": "金币余额",
+        "username": "用户名",
+        "email": "邮箱",
+        "role": "角色",
+        "joined": "注册时间",
+        "edit": "编辑",
+        "save": "保存",
+        "cancel": "取消",
+        "confirmSaveEmail": "确定要保存这个邮箱地址吗？",
+        "updateFailed": "个人资料更新失败，请重试。",
+        "notFound": "用户不存在"
+    },
+    "favorites": {
+        "title": "我的剧集",
+        "selectType": "列表类型",
+        "favoritesOption": "我的收藏",
+        "purchasedOption": "已购买",
+        "empty": "还没有收藏的电视剧",
+        "emptyPurchased": "还没有购买的电视剧",
+        "loadFailed": "列表加载失败，请稍后再试。"
+    },
+    "history": {
+        "title": "观看历史",
+        "empty": "还没有观看记录",
+        "loadFailed": "观看历史加载失败，请稍后再试。"
+    },
+    "common": {
+        "loading": "加载中...",
+        "notFound": "页面不存在",
+        "confirm": "确定",
+        "cancel": "取消"
+    },
+    "footer": {
+        "rights": "版权所有"
+    }
+}

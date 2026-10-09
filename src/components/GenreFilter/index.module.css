@@ -1,0 +1,50 @@
+.filterContainer {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    scrollbar-width: thin;
+    scrollbar-color: #e94560 #1a1a2e;
+}
+
+.filterContainer::-webkit-scrollbar {
+    height: 4px;
+}
+
+.filterContainer::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filterContainer::-webkit-scrollbar-thumb {
+    background: #e94560;
+    border-radius: 2px;
+}
+
+.filterInner {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.2rem;
+}
+
+.tag {
+    padding: 0.4rem 1rem;
+    background: transparent;
+    border: 1px solid #444;
+    border-radius: 20px;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.tag:hover {
+    border-color: #e94560;
+    color: white;
+}
+
+.active {
+    background: #e94560;
+    border-color: #e94560;
+    color: white;
+}
